@@ -10,8 +10,8 @@ window.onload = function() {
 };
 
 function render() {
-    const width = canvas.width;
-    const height = canvas.height;
+    const width = 500;
+    const height = 500;
     let imageData = context.getImageData(0, 0, width, height);
 
     let world = new HitableList();
